@@ -65,11 +65,11 @@ body {
 }
 /* main_content_section */
 .main-content {
-  margin: 105px 0 105px 90px;
+  margin: 105px 40px 105px 80px;
 }
 /* about me section */
 .about {
-  max-width: 400px;
+  max-width: 450px;
   margin-bottom: 40px;
 }
 
@@ -83,11 +83,21 @@ body {
   color: var(--title-color);
 }
 .about__content {
+  text-indent: 20px;
   font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
 
   color: var(--content-color);
+}
+
+.quote {
+  display: block;
+  text-indent: 20px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--title-color);
 }
 /* projects */
 .projects {
@@ -104,7 +114,7 @@ body {
 .projects__item::before {
   content: counter(num) ". ";
   counter-increment: num;
-  margin-right: 15px;
+  margin-right: 10px;
 
   font-weight: bold;
   color: var(--title-color);
@@ -170,6 +180,9 @@ body {
   line-height: 1.21;
 
   color: var(--title-color);
+}
+.education__list {
+  padding-left: 0px;
 }
 /* aside-bar */
 .aside-bar {
