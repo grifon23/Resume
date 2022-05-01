@@ -66,6 +66,7 @@ body {
 /* main_content_section */
 .main-content {
   margin: 105px 40px 105px 80px;
+  width: 60%;
 }
 /* about me section */
 .about {
